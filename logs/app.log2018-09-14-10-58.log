@@ -1,0 +1,13 @@
+[framework] 2018-09-14 10:58:43,604 - com.myapp.init.InitServlet -0    [main] INFO  [framework] 2018-09-14 10:58:43,613 - com.myapp.init.InitServlet -9    [main] INFO  [framework] 2018-09-14 10:58:44,289 - org.nutz.log.Logs -685  [main] INFO  [framework] 2018-09-14 10:58:44,637 - com.myapp.db.conn.ConnectionFactoryByPro -1033 [main] INFO  [framework] 2018-09-14 10:58:44,642 - com.myapp.db.conn.ConnectionFactoryByPro -1038 [main] ERROR java.lang.NumberFormatException: null
+	at java.lang.Integer.parseInt(Unknown Source)
+	at java.lang.Integer.valueOf(Unknown Source)
+	at com.myapp.data.global.ServersConfig.getInstance(ServersConfig.java:30)
+	at com.myapp.data.global.Instances.getServersConfigBean(Instances.java:46)
+	at com.myapp.db.conn.ConnectionFactoryByPro.<init>(ConnectionFactoryByPro.java:41)
+	at com.myapp.db.conn.ConnectionFactory.getInstance(ConnectionFactory.java:20)
+	at com.myapp.data.global.Instances.getConnectionFactory(Instances.java:74)
+	at com.myapp.db.dao.base.BaseUserDao.createTable(BaseUserDao.java:310)
+	at com.myapp.db.config.define.DBConfigManager.initTable(DBConfigManager.java:45)
+	at com.myapp.db.config.define.DBConfigManager.initDBConfig(DBConfigManager.java:36)
+	at com.myapp.init.InitServlet.init(InitServlet.java:62)
+	at com.myapp.init.InitServlet.main(InitServlet.java:41)
