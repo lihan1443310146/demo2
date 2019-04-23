@@ -1,0 +1,1 @@
+[framework] 2018-09-14 11:50:35,950 - com.myapp.init.InitServlet -0    [main] INFO  [framework] 2018-09-14 11:50:39,914 - com.myapp.db.conn.ConnectionFactoryByPro -3964 [main] INFO  [framework] 2018-09-14 11:50:46,021 - com.mchange.v2.log.MLog -10071 [main] INFO  [framework] 2018-09-14 11:50:46,528 - com.mchange.v2.c3p0.C3P0Registry -10578 [main] INFO  
